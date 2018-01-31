@@ -55,8 +55,16 @@ module.exports = function(deployer) {
   deployer.deploy(Voting); //配置合约的发布
 };
 ```
-配置完成后，在控制台输入truffle compile，即可编译合约，合约编译成功后会在build/contracts中生成一个json文件。<br>
-输入 truffle migrate部署合约，部署成功的话你会在控制台看到合约的地址。(每次修改合约或者重启都需要重新编译部署)<br>
+配置完成后，在控制台输入以下命令来编译合约
+```Bash
+truffle compile
+```
+合约编译成功后会在build/contracts中生成一个json文件。<br>
+接着输入以下指令来部署合约<br>
+```Bash
+truffle migrate
+```
+部署成功的话你会在控制台看到合约的地址。(每次修改合约或者重启都需要重新编译部署)<br>
 
 ### 5.ethereum客户端安装，这里我们使用ganache 安装地址:http://truffleframework.com/ganache/<br>
 安装完成后启动客户端，可看到如下界面:<br>
