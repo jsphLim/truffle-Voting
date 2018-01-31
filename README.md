@@ -61,5 +61,7 @@ module.exports = function(deployer) {
 ![Image text](https://github.com/jsphLim/truffle-Voting/blob/master/doc/2.png)
 6.安装metamask<br>
 metamask是一个浏览器的插件 安装地址: https://metamask.io/ <br>
-
+![Image text](https://github.com/jsphLim/truffle-Voting/blob/master/doc/3.png)
+接着点右上角，cunstom RPC
+![Image text](https://github.com/jsphLim/truffle-Voting/blob/master/doc/4.png)
 ## 运行结果
