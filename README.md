@@ -18,6 +18,7 @@ test/ - 用来测试应用和合约的测试文件 <br>
 truffle.js - Truffle的配置文件 <br>
 
 ## 环境搭建
+项目环境搭建可以参考文档:http://truffle.tryblockchain.org/
 ### 1.创建项目目录 
 ```Bash
 mkdir truffle-Voting && cd truffle-Voting
@@ -75,4 +76,6 @@ metamask是一个浏览器的插件 安装地址: https://metamask.io/ <br>
 npm run dev
 ```
 在浏览器的控制台可以观察项目的一些相关输出用于debug，在网页输入投票人姓名并提交，不出意外的话metamask会自动弹出来让你确认交易,点击submit即可<br>
-在ganache中可以看到交易发送的过程。
+在ganache中可以看到交易发送的过程。<br>
+接下来就是编写js了，这个通过以下文档自学即可:<br>
+http://truffleframework.com/docs/
