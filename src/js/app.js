@@ -4,10 +4,6 @@ App = {
     web3Provider: null,
     contracts: {},
 
-    init: function () {
-        return App.initWeb3();
-    },
-
     initWeb3: function () {
         if (typeof web3 !== 'undefined') {
             App.web3Provider = web3.currentProvider;
@@ -90,6 +86,6 @@ App = {
 
 $(function () {
     $(window).load(function () {
-        App.init();
+        App.initWeb3();
     });
 });
