@@ -70,3 +70,9 @@ metamask是一个浏览器的插件 安装地址: https://metamask.io/ <br>
 ![Image text](https://github.com/jsphLim/truffle-Voting/blob/master/doc/5.png)<br>
 基本就配置完毕<br>
 ## 运行结果
+以上配置完毕后，保持ganache和metamask是启动状态，在控制台输入以下指令启动项目
+```Bash
+npm run dev
+```
+在浏览器的控制台可以观察项目的一些相关输出用于debug，在网页输入投票人姓名并提交，不出意外的话metamask会自动弹出来让你确认交易,点击submit即可<br>
+在ganache中可以看到交易发送的过程。
