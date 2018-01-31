@@ -31,6 +31,20 @@ npm install -g truffle
 ```Bash
 truffle init
 ```
+配置truffle.js
+```Bash
+module.exports = {
+  // See <http://truffleframework.com/docs/advanced/configuration>
+  // for more about customizing your Truffle configuration!
+  networks: {
+    development: {
+      host: "127.0.0.1", 
+      port: 7545,
+      network_id: "*" // Match any network id
+    }
+  }
+};
+```
 4.部署合约
 放入自己的合约到contracts目录下，切记不要删除./contract/Migrations.sol合约，它是Truffle用来帮助部署的。<br>
 接着,在migrations目录中创建一个2_deploy_contract.js，加入以下内容:<br>
@@ -40,6 +54,12 @@ module.exports = function(deployer) {
   deployer.deploy(Voting); //配置合约的发布
 };
 ```
+配置完成后，在控制台输入truffle compile，即可编译合约，合约编译成功后会在build/contracts中生成一个json文件。<br>
 
+5.ethereum客户端安装，这里我们使用ganache 安装地址:http://truffleframework.com/ganache/<br>
+安装完成后启动客户端，可看到如下界面:<br>
+![Image text](https://github.com/jsphLim/truffle-Voting/blob/master/doc/2.png)
+6.安装metamask<br>
+metamask是一个浏览器的插件 安装地址: https://metamask.io/ <br>
 
 ## 运行结果
