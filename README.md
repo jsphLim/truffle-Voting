@@ -64,4 +64,9 @@ metamask是一个浏览器的插件 安装地址: https://metamask.io/ <br>
 ![Image text](https://github.com/jsphLim/truffle-Voting/blob/master/doc/3.png)<br>
 接着点右上角，cunstom RPC<br>
 ![Image text](https://github.com/jsphLim/truffle-Voting/blob/master/doc/4.png)<br>
+接着，从ganache客户端中复制第一个地址的privateKey<br>
+回到metamask右上角Import Account<br>
+![Image text](https://github.com/jsphLim/truffle-Voting/blob/master/doc/5.png)<br>
+基本就配置完毕
+6.
 ## 运行结果
