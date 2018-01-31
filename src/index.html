@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Voting System</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+<body class="container">
+<h1>Voting System</h1>
+<div class="table-responsive">
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Candidate</th>
+            <th>Votes</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>zhang</td>
+            <td id="one"></td>
+        </tr>
+        <tr>
+            <td>bin</td>
+            <td id="two"></td>
+        </tr>
+        <tr>
+            <td>cheng</td>
+            <td id="three"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<input type="text" id="candidate" />
+<button class="btn btn-default btn-vote" type="button" >Vote</button>
+</body>
+</html>
