@@ -32,6 +32,14 @@ npm install -g truffle
 truffle init
 ```
 4.部署合约
-放入自己de
+放入自己的合约到contracts目录下，切记不要删除./contract/Migrations.sol合约，它是Truffle用来帮助部署的。<br>
+接着,在migrations目录中创建一个2_deploy_contract.js，加入以下内容:<br>
+```Bash
+var Voting = artifacts.require("Voting");
+module.exports = function(deployer) {
+  deployer.deploy(Voting); //配置合约的发布
+};
+```
+
 
 ## 运行结果
