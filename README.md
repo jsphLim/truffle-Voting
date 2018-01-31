@@ -55,7 +55,7 @@ module.exports = function(deployer) {
 };
 ```
 配置完成后，在控制台输入truffle compile，即可编译合约，合约编译成功后会在build/contracts中生成一个json文件。<br>
-输入 truffle migrate部署合约，部署成功的话你会在控制台看到he'yue
+输入 truffle migrate部署合约，部署成功的话你会在控制台看到合约的地址。(每次修改合约或者重启都需要重新编译部署)<br>
 
 5.ethereum客户端安装，这里我们使用ganache 安装地址:http://truffleframework.com/ganache/<br>
 安装完成后启动客户端，可看到如下界面:<br>
@@ -69,5 +69,4 @@ metamask是一个浏览器的插件 安装地址: https://metamask.io/ <br>
 回到metamask右上角Import Account<br>
 ![Image text](https://github.com/jsphLim/truffle-Voting/blob/master/doc/5.png)<br>
 基本就配置完毕<br>
-6.
 ## 运行结果
