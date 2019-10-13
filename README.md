@@ -1,4 +1,4 @@
-## truffle-Voting
+## 投票系统
 ## 开发环境
 Ubuntu 16.10<br>
 web3 0.2.x<br>
